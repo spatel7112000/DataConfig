@@ -1,0 +1,6 @@
+Insert: db.User.insertOne({name:'Sachin Patel',Category:'Laptop',Brand:'Dell',Price:80000})
+Read: db.User.find({})
+update: db.User.updateOne({name:"Sachin Patel"},{$set:{Price:80000}})
+delete: db.User.deleteOne({name:'Sachin Patel'})
+
+Switch database : use MongoDBs
